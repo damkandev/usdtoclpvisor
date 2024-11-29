@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  background-color: #3E3730;
+  height: 100vh;
+}
+
+/* CSS */
+.chart-container {
+  width: 100%; /* Asegura que ocupe todo el ancho */
+  height: 300px; /* Define una altura fija o flexible */
+  overflow: hidden; /* Evita el desbordamiento */
+}
+
+@font-face {
+  font-family: 'General Medium';
+  src: url("/fonts/GeneralSans-Medium.ttf");
+}
+
+@font-face {
+  font-family: 'General Semibold';
+  src: url("/fonts/GeneralSans-Semibold.ttf");
+}
+
+@font-face {
+  font-family: 'Nohemi Extrabold';
+  src: url("/fonts/Nohemi-Extrabold.ttf");
+}
+
+@layer base {
+  :root {
+    --radius: 0.5rem;
+  }
+}
+
